@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.side-bar {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  border-width: 1px;
+  border-right-style: solid;
+  border-right-color: darkgray;
+}
+
+.search-bar {
+  padding: 12px 5px 10px;
+}
+
+.main-deck{
+  position: absolute;
+  overflow: hidden;
+  margin-left: 20%;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
