@@ -32,8 +32,19 @@ code {
   background: #555; 
 }
 
+iframe {
+  display: block;
+  width: 100vw;
+  height: 93vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  box-sizing: border-box;
+}
+
 .side-bar {
-  position: fixed;
+  overflow: scroll;
   height: 100%;
   width: 20%;
   border-width: 1px;

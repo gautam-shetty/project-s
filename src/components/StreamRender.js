@@ -2,16 +2,11 @@ import React from 'react'
 
 const StreamRender = ({activeStream}) => {
 
-    const streamURL="https://player.twitch.tv/?channel="+String(activeStream)+"&parent=localhost"
-
-    console.log(activeStream)
-
     return (
-        <div className="main-deck">
+        <div>
             <iframe 
-                src={streamURL}
-                frameborder="0" allowfullscreen="true" scrolling="no" 
-                height="100%" width="100%"
+                src={"https://player.twitch.tv/?channel="+String(activeStream)+"&parent=localhost"}
+                frameborder="0" allowfullscreen="true" scrolling="no"
             />
         </div>
         
